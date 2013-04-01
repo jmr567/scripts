@@ -1,5 +1,4 @@
-
-TTL=3600
+TTL=900
 SERVER="1.1.1.1"
 #SERVER="blah.blah.com.au"
 ZONE="blah.blah.com.au"
@@ -7,7 +6,7 @@ ZONE="blah.blah.com.au"
 #HOSTNAME=`/bin/hostname -s`
 HOSTNAME="ftp"
 DOMAIN="blah.blah.com.au"
-#CNAME="ftp.blah.ecetera.com.au"
+#CNAME="ftp.blah.blah.com.au"
 KEYFILE=/etc/pki/dnssec-keys/Kblah
 IP=`curl -s http://169.254.169.254/latest/meta-data/public-ipv4`
 #IP=`/sbin/ip addr list eth0 | grep 'inet ' | awk '{print $2}' | cut -d/ -f 1`
